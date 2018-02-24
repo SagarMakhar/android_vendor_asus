@@ -31,18 +31,6 @@ LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := LeanbackLauncher
-LOCAL_MODULE_OWNER := asus
-LOCAL_SRC_FILES := proprietary/priv-app/LeanbackLauncher/LeanbackLauncher.apk
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PRIVILEGED_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := TV
 LOCAL_MODULE_OWNER := asus
 LOCAL_SRC_FILES := proprietary/priv-app/TV/TV.apk

@@ -258,6 +258,5 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     AtvRemoteService \
-    LeanbackLauncher \
     TV \
     com.google.widevine.software.drm

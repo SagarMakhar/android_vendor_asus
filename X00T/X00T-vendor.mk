@@ -56,6 +56,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/asus/X00T/proprietary/framework/org.simalliance.openmobileapi.jar:system/framework/org.simalliance.openmobileapi.jar \
     vendor/asus/X00T/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
+    vendor/asus/X00T/proprietary/framework/vendor.qti.hardware.alarm-V1.0-java.jar:system/framework/vendor.qti.hardware.alarm-V1.0-java.jar \
     vendor/asus/X00T/proprietary/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar:system/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar \
     vendor/asus/X00T/proprietary/lib/com.qualcomm.qti.ant@1.0.so:system/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/asus/X00T/proprietary/lib/com.qualcomm.qti.dpm.api@1.0.so:system/lib/com.qualcomm.qti.dpm.api@1.0.so \
@@ -1731,6 +1732,5 @@ PRODUCT_PACKAGES += \
     aptxui \
     com.qti.snapdragon.sdk.display \
     qcrilhook \
-    vendor.qti.hardware.alarm-V1.0-java \
     vendor.qti.hardware.factory-V1.0-java \
     vendor.qti.hardware.sensorscalibrate-V1.0-java

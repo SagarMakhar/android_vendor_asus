@@ -43,6 +43,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/fugu/proprietary/etc/wifi/bcmdhd.cal:system/etc/wifi/bcmdhd.cal \
     vendor/asus/fugu/proprietary/etc/wifi/bcmdhd_sr2.cal:system/etc/wifi/bcmdhd_sr2.cal \
     vendor/asus/fugu/proprietary/lib/arm/cpuinfo:system/lib/arm/cpuinfo \
+    vendor/asus/fugu/proprietary/lib/arm/libbcc.so:system/lib/arm/libbcc.so \
     vendor/asus/fugu/proprietary/lib/arm/libEGL.so:system/lib/arm/libEGL.so \
     vendor/asus/fugu/proprietary/lib/arm/libETC1.so:system/lib/arm/libETC1.so \
     vendor/asus/fugu/proprietary/lib/arm/libGLESv1_CM.so:system/lib/arm/libGLESv1_CM.so \
@@ -114,6 +115,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/fugu/proprietary/lib/arm/libpowermanager.so:system/lib/arm/libpowermanager.so \
     vendor/asus/fugu/proprietary/lib/arm/libprocessgroup.so:system/lib/arm/libprocessgroup.so \
     vendor/asus/fugu/proprietary/lib/arm/libprotobuf-cpp-lite.so:system/lib/arm/libprotobuf-cpp-lite.so \
+    vendor/asus/fugu/proprietary/lib/arm/libradio.so:system/lib/arm/libradio.so \
     vendor/asus/fugu/proprietary/lib/arm/libradio_metadata.so:system/lib/arm/libradio_metadata.so \
     vendor/asus/fugu/proprietary/lib/arm/libselinux.so:system/lib/arm/libselinux.so \
     vendor/asus/fugu/proprietary/lib/arm/libserviceutility.so:system/lib/arm/libserviceutility.so \
@@ -180,7 +182,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/fugu/proprietary/lib/arm/nb/libz.so:system/lib/arm/nb/libz.so \
     vendor/asus/fugu/proprietary/lib/hw/hdmi_cec.fugu.so:system/lib/hw/hdmi_cec.fugu.so \
     vendor/asus/fugu/proprietary/lib/hw/keystore.moorefield.so:system/lib/hw/keystore.moorefield.so \
-    vendor/asus/fugu/proprietary/lib/libDecoderVP9Hybrid.so:system/lib/libDecoderVP9Hybrid.so \
     vendor/asus/fugu/proprietary/lib/libFFTEm.so:system/lib/libFFTEm.so \
     vendor/asus/fugu/proprietary/lib/libLLVM.so:system/lib/libLLVM.so \
     vendor/asus/fugu/proprietary/lib/libOMXVideoDecoderAVCSecure.so:system/lib/libOMXVideoDecoderAVCSecure.so \
@@ -228,6 +229,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/fugu/proprietary/vendor/lib/hw/gralloc.moorefield.so:system/vendor/lib/hw/gralloc.moorefield.so \
     vendor/asus/fugu/proprietary/vendor/lib/hw/memtrack.moorefield.so:system/vendor/lib/hw/memtrack.moorefield.so \
     vendor/asus/fugu/proprietary/vendor/lib/hw/vulkan.moorefield.so:system/vendor/lib/hw/vulkan.moorefield.so \
+    vendor/asus/fugu/proprietary/vendor/lib/libDecoderVP9Hybrid.so:system/vendor/lib/libDecoderVP9Hybrid.so \
     vendor/asus/fugu/proprietary/vendor/lib/libIMGegl.so:system/vendor/lib/libIMGegl.so \
     vendor/asus/fugu/proprietary/vendor/lib/libPVRRS.sha1.so:system/vendor/lib/libPVRRS.sha1.so \
     vendor/asus/fugu/proprietary/vendor/lib/libPVRRS.so:system/vendor/lib/libPVRRS.so \
